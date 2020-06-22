@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //stash
         edtLength = findViewById(R.id.edt_length); //mengambil value panjang
         edtWidth = findViewById(R.id.edt_width); //mengambil value lebar
         edtHeight = findViewById(R.id.edt_height); //mengambil value tinggi
