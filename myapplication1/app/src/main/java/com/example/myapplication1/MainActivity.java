@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
         if (v.getId() == R.id.but_hitung) {
+
+            // save input in variable
             String inputLength = edtLength.getText().toString().trim();
             String inputWidth = edtWidth.getText().toString().trim();
             String inputHeight = edtHeight.getText().toString().trim();
